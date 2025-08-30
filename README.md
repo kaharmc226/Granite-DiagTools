@@ -23,11 +23,16 @@ create a folder ".streamlit" and create file named "secrets.toml" in the folder,
 `REPLICATE_API_KEY = "Your-API-Key"`
 
 run this command in terminal :
+
 `streamlit run Streamlit/diagnostic_app.py`
 
-deployed version
+deployed version:
 
+https://granite-diagtools.streamlit.app/
 
 
 note:
+
 local storage is not suppoprted in teh deployed version, so the history is erased when the program is stopped
+
+the API key sometimes gets disabled or runs out of credit, in that case, just use your own key
