@@ -24,3 +24,10 @@ create a folder ".streamlit" and create file named "secrets.toml" in the folder,
 
 run this command in terminal :
 `streamlit run Streamlit/diagnostic_app.py`
+
+deployed version
+
+
+
+note:
+local storage is not suppoprted in teh deployed version, so the history is erased when the program is stopped
